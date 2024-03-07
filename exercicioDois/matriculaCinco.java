@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class matriculaCinco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        for (int i = 0; i < 5; i++) {
+        
             int[] mat = new int[5];
             String[] nome = new String[5];
             float[] a = new float[5];
             float[] b = new float[5];
             float[] notaFinal = new float[5];
+        
+        for (int i = 0; i < 5; i++) {
             
             System.out.print("Digite sua matrícula: ");
             mat[i] = scanner.nextInt();
